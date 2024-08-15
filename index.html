@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Música - Site de Downloads</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Azul claro */
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00796b, #004d40); /* Gradiente verde para azul petróleo */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 2px solid #004d40; /* Azul petróleo */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            margin: 3px 0 0;
+            font-size: 1em;
+            font-style: italic;
+        }
+
+        main {
+            padding: 15px;
+        }
+
+        .music-list {
+            background-color: #ffffff; /* Branco */
+            border-radius: 12px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            max-width: 450px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .music-list h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #00796b; /* Verde escuro */
+            font-weight: bold;
+        }
+
+        .music-list img {
+            max-width: 50%; /* Reduzido ainda mais o tamanho da imagem */
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: 2px solid #00796b; /* Borda verde escuro */
+        }
+
+        .music-list ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .music-list li {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .music-list li:last-child {
+            border-bottom: none;
+        }
+
+        .music-list span {
+            font-size: 1.1em;
+            color: #004d40; /* Azul petróleo */
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .music-info {
+            margin-bottom: 10px;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .music-info p {
+            margin: 3px 0;
+        }
+
+        .music-list a {
+            background-color: #00796b; /* Verde escuro */
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            display: inline-block;
+            margin-top: 10px; /* Distância do botão em relação ao texto */
+        }
+
+        .music-list a:hover {
+            background-color: #004d40; /* Azul petróleo */
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #00796b; /* Verde escuro */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minha Música</h1>
+        <p>Ouça e baixe suas músicas favoritas!</p>
+    </header>
+
+    <main>
+        <section class="music-list">
+            <h2>Lista de Músicas</h2>
+            <img src="https://1.bp.blogspot.com/-v2R7Veqn3Ds/YU76obOHHsI/AAAAAAAAEGk/9Gs2Afli5g00CM-dMEXIIMjGO49bME2HQCNcBGAsYHQ/s320/IMG_20210922_071237.jpg" alt="Wilson Johns - Esforço">
+            <ul>
+                <li>
+                    <span>Wilson Johns - Esforço</span>
+                    <div class="music-info">
+                        <p><strong>Artista:</strong> Wilson Johns</p>
+                        <p><strong>Título:</strong> Esforço</p>
+                        <p><strong>Gênero:</strong> Hip Hop & Rap</p>
+                        <p><strong>Ano:</strong> 2021</p>
+                    </div>
+                    <a href="https://www.mediafire.com/file/ni5xpuyxr7kjwvj/Wilson_Johns_-_Esfor%25C3%25A7o.mp3/file" target="_blank" rel="noopener noreferrer">Baixar</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Música - Criado por Milato</p>
+    </footer>
+</body>
+</html>
